@@ -46,8 +46,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </body>
 </html>
 
-//From the result possibilities positive and negative, select one randomly and insert into
-//database if the appointment date < date now
+<!--From the result possibilities positive and negative, select one randomly and insert into-->
+<!--database if the appointment date < date now-->
 <?php
 $strings = array('Positive', 'Negative');
 $key = $strings[array_rand($strings)];

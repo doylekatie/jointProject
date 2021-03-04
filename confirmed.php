@@ -46,8 +46,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </body>
 </html>
 
-//If the book appointment button is pressed in book.php, this code will take the date and time 
-//selected and insert it into the bookingApp table
+<!--If the book appointment button is pressed in book.php, this code will take the date and time--> 
+<!--selected and insert it into the bookingApp table-->
 
 <?php
 $Date = htmlspecialchars($_SESSION["Date"]); 

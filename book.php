@@ -46,8 +46,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </body>
 </html>
 
-//The 'HSE' updates the details table with available appointments. This code will pull that info from
-//the table and print to user
+<!--The 'HSE' updates the details table with available appointments. This code will pull that info--> 
+<!--from the table and print to user-->
 
 <?php
 
